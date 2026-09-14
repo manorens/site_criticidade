@@ -71,6 +71,16 @@ header .logotipo span {
   color: #8fc4ff;
 }
 
+header .autor-cabecalho {
+  flex-shrink: 0;
+  color: var(--branco);
+  font-size: 1.2rem;
+  font-weight: 800;
+  white-space: nowrap;
+  padding: 0 .6rem;
+  border-left: 1px solid rgba(255,255,255,.25);
+}
+
 nav {
   flex: 1;
 }
@@ -809,6 +819,14 @@ footer .logotipo span {
   header .logotipo {
     width: 100%;
     text-align: center;
+  }
+
+  header .autor-cabecalho {
+    width: 100%;
+    text-align: center;
+    border-left: none;
+    border-top: 1px solid rgba(255,255,255,.2);
+    padding: .3rem 0 0;
   }
 
   nav ul {
